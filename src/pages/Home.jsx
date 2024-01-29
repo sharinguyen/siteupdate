@@ -1,14 +1,13 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import BannerImage from '../assets/dice-blue.jpg';
+import BannerImage from '../assets/horse-forest.png';
 import '../styles/Home.css';
 function Home(){
     return (
         <div className="home">
             <div className="headerContainer" 
         style={{
-            backgroundImage: `url(${BannerImage})`,
-            backgroundPosition: 'center center',
+            backgroundImage: `url(${BannerImage})`
           }}
         >
                 <h1>Great Games Escape</h1>
