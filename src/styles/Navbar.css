@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 120px;
-    background-color: #62cbff;
+    background-color: #66B2B2;
     display: flex;
     flex-direction: row;
   }
@@ -27,7 +27,8 @@
     justify-content: center;
   }
   
-  .navbar a {
+  .navbar a, 
+  .NavIcon {
     color: white;
     text-decoration:none;
     margin: 20px;
@@ -36,13 +37,14 @@
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
-    color: #62cbff;
+    color:white;
     cursor: pointer;
   }
   
   .navbar .rightSide svg {
     font-size: 40px;
   }
+
   
   .navbar .leftSide .hiddenLinks {
     display: none;
@@ -104,7 +106,7 @@
   }
   
   /* control width size to show reorder button when below min width */
-  @media only screen and (min-width: 1249.9px) {
+  @media only screen and (min-width: 1250px) {
     .navbar .rightSide button {
       display: none;
     }
@@ -113,10 +115,5 @@
       display: none;
     }
   
-    .navbar .rightSide .NavIcon svg {
-      color: white;
-      margin: 20px;
-      cursor: pointer;
-      justify-content: flex-end;
-    }
+  
   }

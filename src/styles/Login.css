@@ -28,6 +28,23 @@
     margin-left: 30px;
   }
   
+ .loginBottom{
+    font-size: x-large;
+    text-align: center;
+  }
+  
+.loginBottom a {
+  color: rgb(0, 0, 0); /* Font color for links */
+  text-decoration: none; /* Remove underlines from links */
+  margin-right: 20px; /* Add spacing between links if needed */
+}
+
+.loginBottom a:hover {
+  /* Optional: Style for when the links are hovered */
+  text-decoration: underline;
+  color:#66B2B2 ;
+}
+
   form {
     display: flex;
     flex-direction: column;
