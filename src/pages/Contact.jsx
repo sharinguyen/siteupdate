@@ -1,5 +1,5 @@
 import React from "react";
-import leftMap from "../assets/map-dice.jpg";
+import leftMap from "../assets/board-dice.jpg";
 import "../styles/Contact.css";
 
 function Contact() {
