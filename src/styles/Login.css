@@ -45,7 +45,7 @@
   color:#66B2B2 ;
 }
 
-  form {
+.login-form {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -54,7 +54,7 @@
     font-size: large;
   }
   
-  form input {
+  .login-form input {
     height: 40px;
     width: 80%;
     font-size: xx-large;
@@ -64,24 +64,24 @@
   }
   
  
-  input::placeholder,
+  .login-form input::placeholder,
   textarea::placeholder {
     font-weight: bold;
     color: rgb(95, 95, 95);
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  form input:focus,
+  .login-form input:focus,
   textarea:focus {
     outline: none;
   }
   
-  form label {
+  .login-form label {
     margin-top: 15px;
     color: grey;
   }
   
-  form button {
+  .login-form button {
     margin-top: 40px;
     width: 140px;
     height: 40px;

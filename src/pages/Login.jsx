@@ -36,8 +36,8 @@ function Login() {
     
       {/* Apply styles to loginBottom div */}
         <div className='loginBottom'>
-        <Link to='./signup'>Sign up</Link>
-        <Link to='./forgotpassword'>forgot password?</Link>
+        <Link to='../pages/Signup'>Sign up</Link>
+        <Link to='../pages/About'>forgot password?</Link>
         </div>
 
       </div>

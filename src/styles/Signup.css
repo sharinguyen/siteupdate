@@ -1,0 +1,93 @@
+/* Adjusted width in .signUp */
+.signUp {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp h1 {
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.signUpBottom {
+    font-size: x-large;
+    text-align: center;
+    align-content: center;
+}
+
+.signUpBottom a {
+    color: rgb(0, 0, 0); /* Font color for links */
+    text-decoration: none; /* Remove underlines from links */
+    margin-right: 20px; /* Add spacing between links if needed */
+}
+
+.signUpBottom a:hover {
+    /* Optional: Style for when the links are hovered */
+    text-decoration: underline;
+    color: #66B2B2;
+}
+
+/* Adjusted width and margin in form */
+.signUp-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 30px;
+    font-size: large;
+    border: 2px solid #000; /* Add a border around the form */
+}
+
+/* Adjusted width in form input */
+.signUp-form input {
+    height: 40px;
+    width: 100%; /* Adjust the width as needed */
+    font-size: xx-large;
+    border: none;
+    align-items: center;
+    border-bottom: 1px solid #121619;
+    color: rgb(0, 0, 0);
+}
+
+/* Adjusted placeholder styling */
+.signUp-form input::placeholder {
+    font-weight: light;
+    color: rgb(95, 95, 95);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corrected focus rule for input */
+.signUp-form input:focus {
+    outline: none;
+}
+
+/* Adjusted label styling */
+.signUp-form label {
+    margin-top: 15px;
+    color: grey;
+}
+
+/* Adjusted button styling */
+.signUp-form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 70px;
+    border: none;
+    background-color: #e70707;
+    color: whitesmoke;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in; /* Added transition to the default state */
+}
+
+/* Hover effect for button */
+.signUp-form button:hover {
+    background-color: #66B2B2;
+    color: whitesmoke;
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import BannerImage from '../assets/horse-forest.png';
+import BannerImage from '../assets/horse-banner.jpg';
 import '../styles/Home.css';
 function Home(){
     return (

@@ -6,6 +6,7 @@ import About from './pages/About.jsx';
 import Login from './pages/Login.jsx';
 import Locations from './pages/Locations.jsx';
 import Rocklin from './pages/Rocklin.jsx';
+import Signup from './pages/Signup.jsx';
 
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/pages/Login" element={<Login />}/>
         <Route path="/pages/Locations" element={<Locations />}/>
         <Route path="/pages/Rocklin" element ={<Rocklin />}/>
+        <Route path="/pages/Signup" element ={<Signup/>}/>
   
   
       </Routes>
