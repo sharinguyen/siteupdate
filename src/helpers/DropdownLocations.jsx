@@ -9,10 +9,17 @@ const DropdownLocations = () => {
   };
 
   return (
+
+    /* when user hovers over location shows the location stores 
+  and refirect */
     <div className="dropdownlocations">
-      <div className="dropdown-trigger" onClick={toggleDropdown}>
+      <div className="dropdown-trigger" 
+      hover= {toggleDropdown}
+      onClick={toggleDropdown}
+     >
         <Link to='./pages/Locations'>Locations</Link>
       </div>
+
       {showDropdown && (
         <div className="dropdown-content">
           <Link to='./pages/About'>Sacramento</Link>

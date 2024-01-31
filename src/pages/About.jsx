@@ -3,11 +3,17 @@ import aboutImage from "../assets/map-dice.jpg";
 import "../styles/About.css";
 function About() {
   return (
+    /*style throughout page under ".about" */
     <div className="about">
+
+      {/* Uses to set aboutTop banner design*/}
       <div
         className="aboutTop"
         style={{ backgroundImage: `url(${aboutImage})` }}
       ></div>
+
+      {/* after image everthing is aboutBottom
+      Gives content of what the store is about */}
       <div className="aboutBottom">
         <h1> ABOUT US</h1>
         <p>

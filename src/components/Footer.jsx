@@ -28,7 +28,7 @@ function Footer() {
        </Link>
 
         </div>
-        <p>&copy; 2023 Great Escape Games</p>
+        <p>&copy; 2024 Great Escape Games</p>
         </div>;
 }
 

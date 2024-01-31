@@ -2,22 +2,30 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import BannerImage from '../assets/horse-forest.png';
 import '../styles/Home.css';
+
+{/*Home page contains banner image */}
+{/*NEED TO ADD GALLERY THAT HAS UPDATE OF EVENTS AND SALES */}
 function Home(){
     return (
+        
+        /*uses css class home throughout to set styles */
         <div className="home">
+            {/*uses headcontainer that has text and slogan with 
+            banner img to change use the import above  */}
             <div className="headerContainer" 
         style={{
             backgroundImage: `url(${BannerImage})`
           }}
-        >
+          >
                 <h1>Great Games Escape</h1>
                 <p>Free your imagination</p>
-                <Link to="store">
-                <button> Shop now</button>
+                {/*Links to product store using buttons */}
+                <Link to="Product">
+                <button> Shop Products</button>
                 </Link>
                
             </div>
-
+            {/* Under devlopment uses container in Home.css */}
             <div className="bodyContainer">
                 <p>update gallery</p>
             <h1>Location/Hours of Operations:</h1>

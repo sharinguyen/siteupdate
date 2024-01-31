@@ -34,7 +34,7 @@ function Login() {
           <button type="submit"> login</button>
         </form>
     
-      {/* Apply styles to loginBottom div */}
+      {/* Apply styles to loginBottom div redirects to pages*/}
         <div className='loginBottom'>
         <Link to='./signup'>Sign up</Link>
         <Link to='./forgotpassword'>forgot password?</Link>
