@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    height: 90vh;
+    height: 140vh;
     display: flex;
   }
   
@@ -80,4 +80,21 @@
     color: whitesmoke;
     font-size: 15px;
     cursor: pointer;
+  }
+
+  .contact .rightSide .leftLocation,
+  .rightSide .leftLocation ul{
+    margin-left: 30px;
+    height: 40%;
+    flex-direction: row;
+    list-style: none;
+
+  }
+
+  .contact .rightSide .rightLocation{
+    height: 40%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
