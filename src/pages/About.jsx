@@ -17,9 +17,9 @@ function About() {
       <div className="aboutBottom">
         <h1> ABOUT US</h1>
         <p>
-            Welcome to Great Escape Games, your go-to destination for all things role-playing!
+            Welcome to Great Escape Games, your go-to destination for all things table-top games!
             We are passionate about bringing people together through the magic of role-playing with our
-            variety of tabletop games and creating a community where ethusiasists of all ages and skill \
+            variety of tabletop games and creating a community where ethusiasists of all ages and skill 
             levels can find their perfect gaming experience.
         </p>
 
@@ -27,7 +27,7 @@ function About() {
         <p>
             Established in __, Great Escape Games was born out of love for tabletop games and a desire to 
             provide a dedicated spcae for gameres to connect, explore, and enjoy their favorite pastime activities.
-            Our founder, Gary Lane, envisioned a splace where the role-playing community could
+            Our founder, Gary Lane, envisioned a space where the role-playing community could
             thrive, learn, and share their passion for strategy and creativity. 
         </p>
 
@@ -40,16 +40,16 @@ function About() {
 
         <h2>What Sets Us Apart</h2>
         <h3>Wide Selection</h3>
-        <p>
-            Discover an extensive collection of tabletop games, role-playing games(RPGs), board games,
+        <p> 
+            Discover an extensive collection of tabletop games, role-playing games (RPGs), board games,
             card games, and accessories. We curate our selection to cater to all interests, from classic 
-            board games to teh latest tabletop release.
+            board games to the latest tabletop release.
         </p>
 
         <h3>Knowledgable Staff</h3>
         <p>
             Our team consists of avid gamers who are always ready to assist you. Whether you're a 
-            seasoned player or new to the world of tabletop gmaing, we're here to provide recommendations, answer
+            seasoned player or new to the world of tabletop gaming, we're here to provide recommendations, answer
             questions, and help you find the perfect game for any occasion.
         </p>
 
